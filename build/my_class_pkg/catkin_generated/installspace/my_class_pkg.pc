@@ -1,8 +1,0 @@
-prefix=/home/bcsh/ros_class_ws/install
-
-Name: my_class_pkg
-Description: Description of my_class_pkg
-Version: 0.0.0
-Cflags: 
-Libs: -L${prefix}/lib 
-Requires: 

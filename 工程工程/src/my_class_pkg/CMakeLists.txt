@@ -212,19 +212,3 @@ add_executable(move_forward src/move_forward.cpp)
 target_link_libraries(move_forward ${catkin_LIBRARIES})
 add_executable(square_move src/square_move.cpp)
 target_link_libraries(square_move ${catkin_LIBRARIES})
-<<<<<<< HEAD
-=======
-add_executable(ros_bump_node src/ros_bump.cpp)
-target_link_libraries(ros_bump_node ${catkin_LIBRARIES})
-add_executable(ros_sonic_node src/ros_sonic.cpp)
-target_link_libraries(ros_sonic_node ${catkin_LIBRARIES})
-add_executable(ros_imu_node src/ros_imu.cpp)
-target_link_libraries(ros_imu_node ${catkin_LIBRARIES})
-add_executable(ros_bump_avoid_node src/ros_bump_avoid.cpp)
-target_link_libraries(ros_bump_avoid_node ${catkin_LIBRARIES})
-add_executable(tof_avoid_move src/tof_avoid_move.cpp)
-target_link_libraries(tof_avoid_move ${catkin_LIBRARIES})
-# IMU自旋180°节点（查询IMU+解析四元数+180°旋转）
-add_executable(ros_imu_spin_180_node src/ros_imu_spin_180.cpp)
-target_link_libraries(ros_imu_spin_180_node ${catkin_LIBRARIES})
->>>>>>> 828c3129806d8907c6751ff163965476f337a3fa

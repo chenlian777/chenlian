@@ -1,2 +1,0 @@
-my_class_pkg
--DCATKIN_DEVEL_PREFIX=/home/bcsh/ros_class_ws/devel -DCMAKE_INSTALL_PREFIX=/home/bcsh/ros_class_ws/install -G Unix Makefiles

@@ -1,0 +1,23 @@
+# ROS 编译产物
+build/
+devel/
+install/
+log/
+
+# Python 缓存
+__pycache__/
+*.pyc
+*.pyo
+
+# 编辑器/系统文件
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+*~
+
+# 大文件（可选，根据需要）
+*.bag
+*.urdf
